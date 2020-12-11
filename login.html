@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<div class="login">
+				<div class="login__body">
+					<a href="#" class="login__logo">
+						<img src="img/header/logo.svg" alt="logo" />
+					</a>
+					<div class="login__content">
+						<div class="login__title">Вход</div>
+						<div class="login__tabs tabs-login">
+							<div class="tabs-login__nav">
+								<button class="tabs-login__btn" type="button" data-tab="#tab_1">Инвестор</button>
+								<button class="tabs-login__btn active" type="button" data-tab="#tab_2">Компания</button>
+							</div>
+							<div class="tabs-login__content">
+								<div class="tabs-login__item active" id="tab_2">
+									<form action="#" class="tabs-login__form">
+										<div class="tabs-login__input">
+											<input type="text" placeholder="Логин">
+										</div>
+										<div class="tabs-login__input">
+											<input type="password" placeholder="Пароль" required>
+										</div>
+										<button class="tabs-login__submit submit" type="submit" required>Войти</button>
+									</form>
+									<div class="tabs-login__links">
+										<a href="#" class="tabs-login__link">Забыли пароль?</a>
+										<a href="#" class="tabs-login__link">Оставить заявку на регистрацию</a>
+									</div>
+								</div>
+								<div class="tabs-login__item" id="tab_1">
+									<a class="tabs-login__submit" href="#">Войти через Госуслуги</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-migrate-3.0.1.min.js"></script> -->
+<script src="js/vendors.js"></script>
+<script src="js/main.js"></script>
+<script src="js/custom.js" ></script>
+	</div>
+</body>
+
+</html>
